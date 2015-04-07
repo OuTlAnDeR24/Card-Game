@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="Style/style.css">
+
+</head>
+<body>
+        <div class="header">
+            <h1>CARD MAGIC!!</h1>
+        </div>
+
+        <div id="answerDiv">
+            <label>You chose:</label>
+            <br/>
+            <label id="answer"></label>
+        </div>
+
+        <div id="deckDiv">
+            <img class="image" src="Images/deck.jpg">
+        </div>
+
+        <div id="instructions">
+            <ul>
+                <strong>Instructions</strong>
+                <li>Choose a number between 1-63.</li>
+                <li>Click the Deck to deal Cards.</li>
+                <li>Hover on the cards to see them.</li>
+                <li>Click on the card that contain your number.</li>
+                <li>Click Done when you have browsed through all cards.</li>
+            </ul>
+        </div>
+
+        <div class="cardsShowcase" currentlyShowing = "back" value="1" left="8%" id="card1Div">
+            <div id="onefront" >
+                <img class="image" src="Images/1.jpg">
+            </div>
+            <div id="oneback" >
+                <img class="image" src="Images/backSide.jpg">
+            </div>
+
+        </div>
+
+        <div class="cardsShowcase" currentlyShowing = "back" value="2" left="23%" id="card2Div">
+            <div id="onefront" >
+                <img class="image" src="Images/2.jpg">
+            </div>
+            <div id="oneback" >
+                <img class="image" src="Images/backSide.jpg">
+            </div>
+
+        </div>
+
+        <div class="cardsShowcase" currentlyShowing = "back" value="4" left="38%" id="card3Div">
+            <div id="onefront" >
+                <img class="image" src="Images/3.jpg">
+            </div>
+            <div id="oneback" >
+                <img class="image" src="Images/backSide.jpg">
+            </div>
+
+        </div>
+
+        <div class="cardsShowcase" currentlyShowing = "back" value="8" left="53%" id="card4Div">
+            <div id="onefront" >
+                <img class="image" src="Images/4.jpg">
+            </div>
+            <div id="oneback" >
+                <img class="image" src="Images/backSide.jpg">
+            </div>
+
+        </div>
+
+        <div class="cardsShowcase" currentlyShowing = "back" value="16" left="68%" id="card5Div">
+            <div id="onefront" >
+                <img class="image" src="Images/5.jpg">
+            </div>
+            <div id="oneback" >
+                <img class="image" src="Images/backSide.jpg">
+            </div>
+
+        </div>
+
+        <div class="cardsShowcase" currentlyShowing = "back" value="32" left="83%" id="card6Div">
+            <div id="onefront">
+                <img class="image" src="Images/6.jpg">
+            </div>
+            <div id="oneback" >
+                <img class="image" src="Images/backSide.jpg">
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button id="button">Done</button>
+        </div>
+
+</body>
+<script src="./Script/libs/jquery.js"></script>
+<script type="text/javascript"
+        src="Script/libs/require.js" data-main="Script/main"> </script>
+</html>
