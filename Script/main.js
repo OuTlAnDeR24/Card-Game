@@ -30,7 +30,7 @@ require(["DisplayResult"], function(displayResult) {
     function doubletap() {
         var now = new Date().getTime();
         var timesince = now - mylatesttap;
-        if((timesince < 300) && (timesince > 0)){
+        if((timesince < 500) && (timesince > 0)){
 
             mylatesttap = new Date().getTime();
             return true;
