@@ -48,7 +48,7 @@ require(["DisplayResult"], function(displayResult) {
 
     $('.cardsShowcase').bind('Doubletap',function(e){
         e.preventDefault();
-        $('.cardsShowcase').hover()
+        //$('.cardsShowcase').hover()
     });
 
     $('.cardsShowcase').click(function(){
@@ -58,7 +58,7 @@ require(["DisplayResult"], function(displayResult) {
             $(this).find('#onefront').prop('hidden', true);
         }
         else{
-            $(this).hover();
+            //$(this).hover();
             if(doubletap()){
                 $(this).css('opacity', 0.2);
                 totalValue += (Number($(this).attr('value')));
